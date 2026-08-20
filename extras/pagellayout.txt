@@ -1,0 +1,92 @@
+══════════════════════════════════════
+ABLESPACE — PAGE UI EXTRACTION
+══════════════════════════════════════
+
+PAGE: Main
+Page number: 2
+Figma frame/component: 
+Purpose: Profile
+
+──────────────────────────────────────
+1. FRAME
+──────────────────────────────────────
+width: 1280;
+height: 900;
+angle: 0 deg;
+opacity: 1;
+
+
+
+──────────────────────────────────────
+2. HIERARCHY
+──────────────────────────────────────
+
+PAGE HIERARCHY:
+
+└──
+    ├──sidebar
+    ├──main
+
+
+──────────────────────────────────────
+3. COMPONENT INVENTORY
+──────────────────────────────────────
+
+1.Main
+2.sidebar
+
+
+──────────────────────────────────────
+4. COMPONENT DETAILS
+──────────────────────────────────────
+
+COMPONENT:1
+
+Name:sidebar
+Parent:profile
+Purpose:profile
+Type:navigation
+Reusable:
+Variant:
+State:
+
+LAYOUT:
+width: 256;
+height: 900;
+border-right-width: 1px;
+angle: 0 deg;
+opacity: 1;
+
+
+BORDER:
+Width:
+Color:
+background: var(--base-sidebar, #FAFAFA);
+
+
+COMPONENT:2
+
+Name:Main
+Parent:profile
+Purpose:profile
+Type:
+Reusable:
+Variant:
+State:
+
+LAYOUT:
+width: 1024;
+height: 900;
+border-left-width: border-width/border;
+angle: 0 deg;
+opacity: 1;
+
+
+BORDER:
+border-left: 1px solid var(--base-border, #E5E5E5)
+
+Color:
+background: var(--base-background, #FFFFFF);
+
+
+These two are main component of page 2 inside them we will have child components 

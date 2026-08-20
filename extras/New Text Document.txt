@@ -1,0 +1,281 @@
+══════════════════════════════════════
+ABLESPACE — PAGE UI EXTRACTION
+══════════════════════════════════════
+
+PAGE:profile
+Page number:2
+Figma frame/component:
+Purpose:profile
+
+──────────────────────────────────────
+1. FRAME
+──────────────────────────────────────
+
+Width:
+Height:
+Layout:
+Background:
+Padding:
+Gap:
+Responsive:
+Themes:
+
+──────────────────────────────────────
+2. HIERARCHY
+──────────────────────────────────────
+
+PAGE HIERARCHY:
+
+└──Sidebar
+    ├──SidebarHeader
+        └──SidebarMenuButton
+            └──MenuItem
+            └──IconPlaceholder
+    ├──SidebarContent
+        └──SidebarGroup
+            └──InputGroup
+                └──Addon Inline
+                └──PlaceholderText
+
+            └──Items
+            
+    
+
+──────────────────────────────────────
+3. COMPONENT INVENTORY
+──────────────────────────────────────
+
+1.SidebarHeader
+2.SidebarContent
+
+
+──────────────────────────────────────
+4. COMPONENT DETAILS
+──────────────────────────────────────
+
+COMPONENT:
+
+Name:SidebarHeader
+Parent:sidebar
+Purpose:navigation
+Type:navigation
+Reusable:
+Variant:
+State:
+
+LAYOUT:
+width: 256;
+height: 52;
+gap: 8;
+angle: 0 deg;
+opacity: 1;
+padding: spacing/2;
+
+
+BORDER:
+Width:
+Color:
+background: var(--base-sidebar, #FAFAFA);
+
+
+COMPONENT:
+
+Name:IconPlaceholder
+Parent:sidebarMenuButton
+Purpose:BUTTON
+Type:BUTTON
+Reusable:
+Variant:
+State:
+
+LAYOUT:
+width: 16;
+height: 16;
+angle: 0 deg;
+opacity: 1;
+
+Color and button property :
+Lucide Icon="Tabler Icon / arrow-left";
+
+
+COMPONENT:
+
+Name:SidebarMenuButton
+Parent:SidebarMenuButton
+Purpose:Text
+Type:Text
+Reusable:
+Variant:
+State:
+
+LAYOUT:
+width: 192;
+height: 14;
+angle: 0 deg;
+opacity: 1;
+
+Content :
+Back to app
+
+TYPOGRAPHY:
+font-family: font/font-sans;
+font-weight: font-weight/normal;
+font-style: Regular;
+font-size: text/sm/font-size;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+Color:
+background: var(--base-primary, #171717);
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMPONENT:
+
+Name:SidebarContent
+Parent:
+Purpose:
+Type:
+Reusable:
+Variant:
+State:
+
+LAYOUT:
+Width:
+Height:
+Flow:
+Alignment:
+Position:
+Padding:
+Gap:
+
+BORDER:
+Width:
+Color:
+
+RADIUS:
+Value:
+
+SHADOW:
+Value:
+
+BACKGROUND:
+Token:
+Hex:
+
+──────────────────────────────────────
+5. TYPOGRAPHY
+──────────────────────────────────────
+
+TEXT:
+
+Content:
+Parent:
+Font:
+Weight:
+Size:
+Line height:
+Letter spacing:
+Alignment:
+Color:
+Token:
+
+──────────────────────────────────────
+6. BUTTONS
+──────────────────────────────────────
+
+BUTTON:
+
+Name:
+Text:
+Variant:
+State:
+Size:
+Width:
+Height:
+Radius:
+Background:
+Border:
+Padding:
+Gap:
+Left icon:
+Right icon:
+Text styling:
+
+──────────────────────────────────────
+7. INPUTS / FORMS
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+8. ICONS / ASSETS
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+9. INTERACTIONS
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+10. ANIMATIONS
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+11. RESPONSIVE
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+12. THEMES
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+13. DATA / CONTENT
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+14. STATES
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+15. UX OBSERVATIONS
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+16. UNKNOWN / UNAVAILABLE
+──────────────────────────────────────
+
+...
+
+──────────────────────────────────────
+17. OUR DECISIONS
+──────────────────────────────────────
+
+...

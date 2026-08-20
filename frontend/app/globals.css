@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --base-sidebar: #fafafa;
+  --base-sidebar-accent: #f5f5f5;
+  --base-background: #ffffff;
+  --base-border: #e5e5e5;
+  --base-primary: #171717;
+  --base-accent: #f5f5f5;
+  --base-secondary: #f5f5f5;
+  --base-popover: #ffffff;
+  --base-input: #e5e5e5;
+  --custom-foreground-5: #0a0a0a0d;
+}
+
+* { box-sizing: border-box; }
+
+html, body { min-height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--base-background);
+  color: var(--base-primary);
+  font-family: Arial, Helvetica, sans-serif;
+}

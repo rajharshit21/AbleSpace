@@ -1,0 +1,12 @@
+# AbleSpace — Python dependency reference
+#
+# AbleSpace is primarily a TypeScript application:
+# - Next.js
+# - React
+# - Tailwind CSS
+# - NestJS
+# - PostgreSQL
+#
+# These dependencies are installed with npm/pnpm, not pip.
+# No Python runtime is required by the planned application.
+# Keep this file only if Python tooling/scripts are introduced later.
