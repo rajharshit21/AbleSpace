@@ -20,10 +20,20 @@ const pool = new Pool({
   ssl: process.env.DATABASE_SSL === 'true' ? { rejectUnauthorized: false } : false,
 });
 
+const client = await pool.connect();
+
 try {
   const sql = await readFile(seedFile, 'utf8');
-  await pool.query(sql);
+
+  await client.query('BEGIN');
+  await client.query(sql);
+  await client.query('COMMIT');
+
   console.log('Development seed applied.');
+} catch (error) {
+  await client.query('ROLLBACK');
+  throw error;
 } finally {
+  client.release();
   await pool.end();
 }
