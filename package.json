@@ -1,0 +1,19 @@
+{
+  "name": "ablespace",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace ablespace-frontend",
+    "dev:backend": "npm run start:dev --workspace ablespace-backend",
+    "build": "npm run build --workspace ablespace-frontend && npm run build --workspace ablespace-backend",
+    "build:frontend": "npm run build --workspace ablespace-frontend",
+    "build:backend": "npm run build --workspace ablespace-backend",
+    "typecheck": "npm run typecheck --workspace ablespace-frontend && npm run typecheck --workspace ablespace-backend",
+    "typecheck:frontend": "npm run typecheck --workspace ablespace-frontend",
+    "typecheck:backend": "npm run typecheck --workspace ablespace-backend"
+  }
+}

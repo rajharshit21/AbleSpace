@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS task_members;
+DROP TABLE IF EXISTS tasks;
+DROP TABLE IF EXISTS workspace_members;
+DROP TABLE IF EXISTS workspaces;
+DROP TABLE IF EXISTS users;
+DROP EXTENSION IF EXISTS pgcrypto;
